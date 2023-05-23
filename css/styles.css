@@ -1,6 +1,50 @@
 h1 {
-    color: green;
+    color: black;
+    margin: 0;
+    font-size: medium;
+    font-weight: bolder;
 }
 body{
     background-color: black;
+    
+}
+.post{
+    width: 500px;
+    margin: auto;
+    background-color: white;
+}
+img{
+    width: 100%;
+}
+.section2{
+    padding: 16px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.center {
+    width: 100%;
+}
+.subtitle {
+    margin: 0;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    padding: 16px;
+}
+.iconcontainer {
+    display: flex;
+    justify-content: space-between;
+}
+.content {
+    margin-top: 40px;
+}
+.left {
+    margin-right: 12px;
+}
+.fa-regular {
+    margin: 4px;
 }
